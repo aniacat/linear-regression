@@ -14,7 +14,7 @@ test('should pass', t => {
     const expected = linearRegression(data);
 
     t.deepEqual(expected, {
-        a: 65.1415715245131,
-        b: 0.38522498321020804
+        a: 0.38522498321020804,
+        b: 65.1415715245131
     });
 });

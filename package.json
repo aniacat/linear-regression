@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava && eslint . --fix"
+    "test": "ava && eslint . --fix",
+    "prepare": "rollup -c"
   },
   "repository": {
     "type": "git",
